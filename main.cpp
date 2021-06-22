@@ -16,7 +16,7 @@ void banner();
 //main driver
 int main(){
     
-    string path = "vir";
+    string path = "vir"; //path of directory to (encrypt / decrypt) files
     for (auto &file : recursive_directory_iterator(path)){
         cout << file.path() << endl;
         enc_dec(file.path().c_str());
