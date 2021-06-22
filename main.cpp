@@ -8,7 +8,7 @@
 #include <filesystem>
 #include <boost/filesystem.hpp>
 #include <stdio.h>
-#define BUFF_SIZE (1024 * 1024) * 1000
+//#define BUFF_SIZE (1024 * 1024) * 1000
 using namespace std; using boost::filesystem::recursive_directory_iterator;
 //declare function
 int enc_dec(string path);
